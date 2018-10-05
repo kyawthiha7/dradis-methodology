@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<methodology>
+  <name>OWASP Mobile Testing Guide CheckList Android</name>
+  <sections>
+    <section>
+      <name>TESTING-AUTHENTICATION</name>
+      <tasks>
+        <task>Testing Stateful Session Management</task>
+        <task>Testing Stateless Session Management</task>
+        <task>User Logout and Session Timeout</task>
+        <task>Testing OAuth 2.0 Flows</task>
+        <task>Login Activity and Device Blocking</task>
+      </tasks>
+    </section>
+    <section>
+      <name>LOCAL AUTHENTICATION</name>
+      <tasks>
+        <task>Testing Confirm Credentials</task>
+        <task>Testing Biometric Authentication</task>
+      </tasks>
+    </section>
+    <section>
+      <name>NETWORK COMMUNICATION</name>
+      <tasks>
+        <task>Intercepting HTTP(S) Traffic</task>
+        <task>Intercepting Traffic on the Network Layer</task>
+        <task>Verifying Data Encryption on the Network</task>
+        <task>Check Use of Secure Communication Channels</task>
+      </tasks>
+    </section>
+    <section>
+      <name>CRYPTOGRAPHY</name>
+      <tasks>
+        <task>Identifying Cryptographic Algorithms</task>
+        <task>Common Configuration Issues</task>
+        <task>Check Cryptographic API</task>
+        <task>Testing Random Number Generation</task>
+        <task>Testing Key Management</task>
+        <task>Testing for Account Enumeration and Guessable</task>
+        <task>Testing for Weak or unenforced username policy</task>
+      </tasks>
+    </section>
+    <section>
+      <name>CODE QUALITY</name>
+      <tasks>
+        <task>Injection Flaws</task>
+        <task>Memory Corruption Bugs</task>
+        <task>Cross-Site Scripting Flaws</task>
+        <task>Check App is Properly Signed</task>
+        <task>Check App Debugging Symbols</task>
+        <task>Check Execption Handling</task>
+        <task>Check Security Features</task>
+      </tasks>
+    </section>
+    <section>
+      <name>DATA STORAGE </name>
+      <tasks>
+        <task>Testing Local Storage for Sensitive Data</task>
+        <task>Testing Logs for Sensitive Data</task>
+        <task>Determining Whether Sensitive Data is Sent to Third Parties</task>
+        <task>Determining Whether the Keyboard Cache Is Disabled for Text Input Fields</task>
+        <task>Determining Whether Sensitive Stored Data Has Been Exposed via IPC Mechanisms</task>
+        <task>Checking for Sensitive Data Disclosure Through the User Interface</task>
+        <task>Checking Auto Generate Screnshot</task>
+        <task>Checking Memory for Sensitive Data</task>
+        <task>Testing Device Access Security Policy</task>
+      </tasks>
+    </section>
+    <section>
+      <name>TESTING NETWORK API</name>
+      <tasks>
+        <task>Testing App Permission</task>
+        <task>Testing Custom URL Schemes</task>
+        <task>Testing JavaScript Execution in WebViews</task>
+        <task>Testing WebView Protocol Handlers</task>
+        <task>Determining Whether Java Objects Are Exposed Through WebViews</task>
+        <task>Testing for Fragment Injection</task>
+        <task>Testing Object Persistence</task>
+      </tasks>
+    </section>
+    <section>
+      <name>REVERSE ENGINEERING</name>
+      <tasks>
+        <task>Testing Root Detection</task>
+        <task>Testing Anti-Debugging</task>
+        <task>Testing File Integrity Checks</task>
+        <task>Testing The Detection of Reverse Engineering Tools</task>
+        <task>Testing Emulator Detection</task>
+        <task>Testing Run Time Integrity Checks</task>
+        <task>Testing Device Binding</task>
+        <task>Testing Obfuscation</task>
+      </tasks>
+    </section>
+  </sections>
+</methodology>
