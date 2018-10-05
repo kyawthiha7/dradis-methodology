@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <methodology>
-  <name>OWASP Mobile Testing Guide CheckList Android</name>
+  <name>OWASP Mobile Testing Guide CheckList</name>
   <sections>
     <section>
       <name>TESTING-AUTHENTICATION</name>
