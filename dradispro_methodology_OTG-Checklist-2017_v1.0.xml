@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<methodology>
+  <name>OWASP Testing Guide CheatSheet</name>
+  <sections>
+    <section>
+      <name>INFOMATION_GATHERING</name>
+      <tasks>
+        <task>Conduct Search Engine Discovery and Reconnaissance for Information Leakage</task>
+        <task>Fingerprint Web Server</task>
+        <task>Review Webserver Metafiles for Information Leakage</task>
+        <task>Enumerate Applications on Webserver</task>
+        <task>Review Webpage Comments and Metadata for Information Leakage</task>
+        <task>Test of XSS as well as other scripting languages(VBscript?)</task>
+        <task>Identify application entry points</task>
+        <task>Map execution paths through application</task>
+        <task>Fingerprint Web Application Framework</task>
+        <task>Fingerprint Web Application</task>
+        <task>Map Application Architecture</task>
+      </tasks>
+    </section>
+    <section>
+      <name>CONFIGURATION</name>
+      <tasks>
+        <task>Test Network/Infrastructure Configuration</task>
+        <task>Test Application Platform Configuration</task>
+        <task>Test File Extensions Handling for Sensitive Information</task>
+        <task>Review Old, Backup and Unreferenced Files for Sensitive Information </task>
+        <task>Enumerate Infrastructure and Application Admin Interfaces</task>
+        <task>Test HTTP Methods</task>
+        <task>Test HTTP Strict Transport Security</task>
+        <task>Test RIA cross domain policy</task>
+      </tasks>
+    </section>
+    <section>
+      <name>IDENTITY-MANAGEMENT</name>
+      <tasks>
+        <task>Test Role Definitions</task>
+        <task>Test User Registration Process </task>
+        <task>Test Account Provisioning Process</task>
+        <task>Testing for Account Enumeration and Guessable</task>
+        <task>Testing for Weak or unenforced username policy</task>
+      </tasks>
+    </section>
+    <section>
+      <name>AUTHENTICATION-TESTING</name>
+      <tasks>
+        <task>Testing for Credentials Transported over an Encrypted Channel</task>
+        <task>Testing for default credentials </task>
+        <task>Testing for Weak lock out mechanism</task>
+        <task>Testing for bypassing authentication schema</task>
+        <task>Test remember password functionality</task>
+        <task>Testing for Browser cache weakness</task>
+        <task>Testing for Weak password policy</task>
+        <task>Testing for Weak security question/answer</task>
+        <task>Testing for weak password change or reset functionalities</task>
+        <task>Testing for Weaker authentication in alternative channel</task>
+      </tasks>
+    </section>
+    <section>
+      <name>AUTHORIZATION-TESTING</name>
+      <tasks>
+        <task>Testing Directory traversal/file include</task>
+        <task>Testing for bypassing authorization schema</task>
+        <task>Testing for Privilege Escalation</task>
+        <task>Testing for Insecure Direct Object References</task>
+      </tasks>
+    </section>
+    <section>
+      <name>SESSION-MANAGEMENT-TESTING</name>
+      <tasks>
+        <task>Testing for Bypassing Session Management Schema</task>
+        <task>Testing for Cookies attributes</task>
+        <task>Testing for Session Fixation</task>
+        <task>Testing for Exposed Session Variables</task>
+        <task>Testing for Cross Site Request Forgery</task>
+        <task>Testing for logout functionality</task>
+        <task>Test Session Timeout</task>
+        <task>Testing for Session puzzling</task>
+      </tasks>
+    </section>
+    <section>
+      <name>INPUT-VALIDATION-TESTING</name>
+      <tasks>
+        <task>Testing for Reflected Cross Site Scripting</task>
+        <task>Testing for Stored Cross Site Scripting </task>
+        <task>Testing for HTTP Verb Tampering </task>
+        <task>Testing for HTTP Parameter pollution </task>
+        <task>Testing for SQL Injection</task>
+        <task>Testing for LDAP Injection</task>
+        <task>Testing for ORM Injection</task>
+        <task>Testing for XML Injection</task>
+        <task>Testing for SSI Injection </task>
+        <task>Testing for XPath Injection</task>
+        <task>IMAP/SMTP Injection</task>
+        <task>Testing for Code Injection</task>
+      </tasks>
+    </section>
+    <section>
+      <name>TESTING-ERROR-HANDLING</name>
+      <tasks>
+        <task>Analysis of Error Codes</task>
+        <task>Analysis of Stack Traces </task>
+      </tasks>
+    </section>
+    <section>
+      <name>TESTING-WEAK-CRYPTOGRAPHY</name>
+      <tasks>
+        <task>Testing for Weak SSL/TLS Ciphers, Insufficient Transport Layer Protection</task>
+        <task>Testing for Padding Oracle</task>
+        <task>Testing for Sensitive information sent via unencrypted channels</task>
+      </tasks>
+    </section>
+    <section>
+      <name>BUSINESS-LOGIC-TESTING</name>
+      <tasks>
+        <task>Test Business Logic Data Validation</task>
+        <task>Test Ability to Forge Requests </task>
+        <task>Test Integrity Checks</task>
+        <task>Test for Process Timing</task>
+        <task>Test Number of Times a Function Can be Used Limits</task>
+        <task>Testing for the Circumvention of Work Flows</task>
+        <task>Test Defenses Against Application Mis-use</task>
+        <task>Test Upload of Unexpected File Types</task>
+        <task>Test Upload of Malicious Files</task>
+      </tasks>
+    </section>
+    <section>
+      <name>CLIENT-SIDE-TESTING</name>
+      <tasks>
+        <task>Testing for DOM based Cross Site Scripting </task>
+        <task>Testing for JavaScript Execution</task>
+        <task>Testing for HTML Injection</task>
+        <task>Testing for Client Side URL Redirect</task>
+        <task>Testing for CSS Injection</task>
+        <task>Testing for Client Side Resource Manipulation</task>
+        <task>Test Cross Origin Resource Sharing</task>
+        <task>Testing for Cross Site Flashing</task>
+        <task>Testing for Clickjacking</task>
+        <task>Testing WebSockets</task>
+        <task>Test Web Messaging</task>
+        <task>Test Local Storage</task>
+      </tasks>
+    </section>
+  </sections>
+</methodology>
