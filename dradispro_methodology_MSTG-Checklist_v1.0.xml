@@ -1,4 +1,9 @@
 <?xml version="1.0"?>
+<!--
+    Author:
+      Kyaw Thiha <kyawthiha89@live.com>
+
+!-->
 <methodology>
   <name>OWASP Mobile Testing Guide CheckList</name>
   <sections>
